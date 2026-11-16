@@ -34,3 +34,7 @@ O projeto utiliza SQLite para armazenar os eventos e as tarefas de maneira organ
 ## Objetivo
 
 Desenvolver uma solução simples e acessível para melhorar a organização das atividades da igreja.
+
+## Revisão técnica do MVP
+
+O projeto utiliza arquitetura monolítica em camadas, com Python e SQLite. A organização dos arquivos separa as funções de gerenciamento de eventos e tarefas, facilitando a leitura, a manutenção e a evolução do sistema.
