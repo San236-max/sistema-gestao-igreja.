@@ -1,7 +1,10 @@
 from flask import Flask, render_template_string
 import sqlite3
+from database import criar_tabelas
 
 app = Flask(__name__)
+
+criar_tabelas()
 
 def conectar():
     return sqlite3.connect("igreja.db")
