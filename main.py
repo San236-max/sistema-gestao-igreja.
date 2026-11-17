@@ -12,6 +12,7 @@ def menu():
         print("2 - Listar eventos")
         print("3 - Cadastrar tarefa")
         print("4 - Listar tarefas")
+        print("5 - Ativar modo de leitura acessível")
         print("0 - Sair")
 
         opcao = input("Escolha uma opção: ")
@@ -24,6 +25,10 @@ def menu():
             cadastrar_tarefa()
         elif opcao == "4":
             listar_tarefas()
+        elif opcao == "5":
+            print("\033[97;40m")
+            print("MODO DE ALTO CONTRASTE ATIVADO!")
+            print("O texto será exibido em branco sobre fundo preto.")  
         elif opcao == "0":
             print("Sistema encerrado!")
             break
